@@ -15,10 +15,10 @@ Use it in Vue
 import Tilterino from 'v-tilterino'
 
 ...
-/** other code **/
-...
 
 Vue.use(Tilterino, installOptions)
+
+...
 ```
 
 Use the `v-tilt` directive in any HTMLElement or component
