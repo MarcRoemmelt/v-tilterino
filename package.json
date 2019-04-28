@@ -1,0 +1,30 @@
+{
+  "name": "v-tilterino",
+  "version": "0.0.1",
+  "description": "A Vue.js element-tilting directive",
+  "main": "lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.7.1",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.7.1",
+    "rimraf": "^2.6.2"
+  },
+  "peerDependencies": {
+    "vue": "^2.0.0"
+  },
+  "scripts": {
+    "start": "babel-node src",
+    "build": "rimraf lib && babel src -d lib --ignore src/__tests__",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarcRoemmelt/v-tilterino"
+  },
+  "keywords": [],
+  "author": "Marc Römmelt",
+  "license": "MIT"
+}
